@@ -11,7 +11,7 @@ CFLAGS = -Wall -g
 EXECUTABLE = RC4
 
 # File mã nguồn (.c)
-SOURCES = RC4.c decrypt.c main.c
+SOURCES = RC4.c RC4_encrypt_main.c read_test.c user.c
 
 # Quy tắc mặc định: Chạy khi gõ "make"
 # Phụ thuộc vào file thực thi
